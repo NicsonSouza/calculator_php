@@ -8,4 +8,19 @@ body {
   text-align: center;
   font-size: large; }
 
+.container {
+  border-radius: 25%;
+  padding: 10px;
+  margin: auto;
+  width: 300px;
+  border: solid 2px; }
+
+.result {
+  border-radius: 25%;
+  padding: 15px;
+  margin: auto;
+  width: 200px;
+  margin-top: 15px;
+  border: solid 2px; }
+
 /*# sourceMappingURL=style.css.map */

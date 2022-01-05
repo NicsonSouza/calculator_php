@@ -14,7 +14,7 @@ require 'objeto.php';
 
 <body>
 
-    <div class="container text-center">
+    <div class="container text-center col-4 mt-5">
         <form action="" method="POST">
             <h1>Calculadora V1.0</h1>
             <label class="form-label" for="">Primeiro número:</label>
@@ -28,7 +28,7 @@ require 'objeto.php';
             </select><br>
             <label class="form-label" for="">Segundo número:</label>
             <input class="form-control" type="number" name="num2" value=<?= $calc->num2 ?> require> <br>
-            <button class="btn btn-primary" type="submit">Calcular</button>
+            <button class="btn btn-danger btn-lg col-6" type="submit">Calcular</button>
         </form>
     </div>
 

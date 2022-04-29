@@ -2,4 +2,4 @@
 require 'classe.php';
 
 $calc = new Calculadora();
-$calc->Set();
+$calc->Definir();

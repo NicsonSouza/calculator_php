@@ -1,6 +1,3 @@
-<?php
-require 'objeto.php';
-?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -13,7 +10,8 @@ require 'objeto.php';
 </head>
 
 <body>
-
+    <?php include ("objeto.php");?>
+    
     <div class="container text-center col-4 mt-5">
         <form action="" method="POST">
             <h1>Calculadora V1.0</h1>
@@ -34,7 +32,12 @@ require 'objeto.php';
 
     <div class="text-center">
         <?php
-        $calc->Calcula();
+            echo '<br>Resultado = ' . $calc->resultado;
+                if ($calc->num1 == 0 && $calc->num2 == 0) {
+                    echo '<br><br>Os dados não foram preenchidos';
+                        } else {
+                            echo '<br><br>Dados recebidos';
+                        };
         ?>
     </div>
 
